@@ -6,3 +6,9 @@
     .werchamps {
         margin: 20px auto;
     }
+    .werchamps:hover {
+        cursor: url("http://lemur.duke.edu/wordpress/wp-content/uploads/2014/01/IO-moth-eating-frozen-apple-sauce.jpg"), auto;
+        background-color: #33ffff;
+        font-weight: 600;
+        font-size: 20px;
+    }
