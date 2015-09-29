@@ -1,14 +1,26 @@
-   /*
-   body {
-       background-color: red;
+body {
+       background-color: black;
     }
-    */
+    
     .werchamps {
         margin: 20px auto;
     }
     .werchamps:hover {
-        cursor: url("http://lemur.duke.edu/wordpress/wp-content/uploads/2014/01/IO-moth-eating-frozen-apple-sauce.jpg"), auto;
         background-color: #33ffff;
         font-weight: 600;
         font-size: 20px;
+    }
+    h1 {
+        text-decoration: none;
+    }
+    
+    h1 {
+    /*    background-color: #99ff33;*/
+    }
+    
+    p2,p3,a {
+        color: #cc0000;
+    }
+    p {
+        text-align:center;
     }
