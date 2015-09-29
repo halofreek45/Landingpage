@@ -5,15 +5,15 @@ body {
     h1 {
         font-weight: 300;
         font-size: 1.5em;
-        
+        font-family: 'Press Start 2P', cursive;
     }
-    
     .werchamps {
-        color:#66ffff
+        color:#D9BD3F;
     }
     .werchamps:hover{
-        background-color: #66ff33;
+        background-color: #33ccff;
         font-weight: 500;
+        color: #cc0000
     }
     h1 {
         text-decoration: none;
@@ -40,5 +40,4 @@ body {
 /* !TESTING AREA!*/
 
 body {
-    font-family: 'Press Start 2P', cursive;
 }
