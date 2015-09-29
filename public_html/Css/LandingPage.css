@@ -1,5 +1,11 @@
 body {
-       background-color: black;
+       background-color: #D05A00;
+       color: #FEFFF8;
+    }
+    h1 {
+        font-weight: 300;
+        font-size: 1.5em;
+        
     }
     
     .werchamps {
@@ -17,10 +23,18 @@ body {
     h1 {
     /*    background-color: #99ff33;*/
     }
-    
-    p2,p3,a {
-        color: #cc0000;
-    }
     p {
         text-align:center;
     }
+    #wrapper {
+        max-width: 250px;
+    }
+    .Background {
+        background-color: #29241E;
+        border-radius: 25px;
+        padding: 10px; 
+        width: 150px;
+        height: auto;
+         
+    }
+/* !TESTING AREA!*/
