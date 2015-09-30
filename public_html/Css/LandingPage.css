@@ -1,5 +1,5 @@
     body {
-    font-family:icebox_art;
+    font-family: Carrington;
     font-size: 2em;
     background-color: #0C090A;
     color: #33ccff;
@@ -11,12 +11,15 @@
         background-color: #EADCF2;
         font-weight: 300;
         font-size: 1.5em;
-        
+        font-family:Cash Currency;
     }
     @font-face{
-        font-family: icebox_art;
+        font-family: Cash Currency;
         src: url('Cash Currency.ttf');
     }
+    @font-face{
+        font-family: Carrington;
+        src: url('Carrington.ttf');
     .werchamps {
         color:#D9BD3F;
     }
@@ -106,4 +109,3 @@
         max-width: 32px;
         max-height: 33.5px;
     }
-    
