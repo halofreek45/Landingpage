@@ -1,9 +1,9 @@
     body {
-    font-family: Carrington;
     font-size: 2em;
     background-color: #0C090A;
     color: #33ccff;
-    }
+    font-family: Carrington;
+         }
     ul {
       background-color: #0C090A;
     }
@@ -20,23 +20,27 @@
     @font-face{
         font-family: Carrington;
         src: url('Carrington.ttf');
+    }
     .werchamps {
         color:#D9BD3F;
+        opacity: 0.6; 
+        text-align: center;
     }
-    .werchamps:hover{
-        background-color: #33ccff;
+    .werchamps:hover {
         font-weight: 500;
-        color: #cc0000
+        opacity:1;
+       
     }
     h1 {
         text-decoration: none;
+        text-align:  center;
     }
     
     h1 {
     /*    background-color: #99ff33;*/
     }
-    p {
-        text-align:center;
+    p{
+    
     }
     #wrapper {
         max-width: 250px;
@@ -45,22 +49,27 @@
         background-color: #29241E;
         border-radius: 25px;
         padding: 10px; 
-        width: 150px;
+        width: 300px;
         height: auto;
         
          
     }
-    #gallery {
-        margin: 0;
-        padding:0;
-        list-style: none;
+    img {
+        max-width: 100%;
     }
+    #gallery {
+         list-style: none;
+   }
     #gallery li {
         float: left;
-        width: 45%;
-        margin: 2.5%;
-        background: red;
-        border-radius: 5px;
+        width: 28.333%;
+         padding:2.4%;
+        margin: 0;
+    }
+    .alignment {
+        text-align: center;
+        width: 30px;
+        height: auto;
     }
 /* !TESTING AREA!*/
 
@@ -76,7 +85,6 @@
         display: inline-block;
         position: relative;
         line-height: 21px;
-        text-align: left;
     }
     ul li a{
         display: block;
@@ -96,7 +104,6 @@
         position: absolute;
         z-index: 999;
         left: 0;
-        text-align: left;
     }
     ul li:hover ul.dropdown{
         display: block; /* Display the dropdown */
@@ -109,3 +116,5 @@
         max-width: 32px;
         max-height: 33.5px;
     }
+    
+    
