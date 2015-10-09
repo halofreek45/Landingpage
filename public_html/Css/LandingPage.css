@@ -1,35 +1,57 @@
     body {
     font-size: 2em;
-    background-color: #0C090A;
+    background-image: url('http://3.bp.blogspot.com/-9--P7u5UNU0/UOGkubViTpI/AAAAAAAABlI/zPh9hJqUXwc/s1600/moolight-reflecting-ocean_1920px.jpg');
+   background-size: cover;
     color: #33ccff;
-    font-family: Carrington;
+    font-family: MoonFlower;
+    
          }
     ul {
-      background-color: #0C090A;
+     
     }
     h1 {
-        background-color: #EADCF2;
+       
         font-weight: 300;
-        font-size: 1.5em;
+        font-size: 1em;
         font-family:Cash Currency;
+        margin: -5px 0 0;
+        padding: 10px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 1em;
+        color: blue;
+       
     }
     @font-face{
         font-family: Cash Currency;
         src: url('Cash Currency.ttf');
     }
     @font-face{
-        font-family: Carrington;
-        src: url('Carrington.ttf');
+        font-family: MoonFlower;
+        src: url('Moon Flower.ttf');
     }
     .werchamps {
-        color:#D9BD3F;
-        opacity: 0.6; 
-        text-align: center;
+        opacity: 0.6;
+        color: white;
     }
+   
     .werchamps:hover {
         font-weight: 500;
-        opacity:1;
-        
+        opacity:1;  
+        background-color: orange;
+        border-radius: 50%;
+        box-shadow: inset 0 0 0 25px #53a7ea;
+    } 
+    a  {
+        text-align: right;
+         text-decoration: none;
+    }
+    h3 {
+        margin: -5px;
+        padding: 15px;
+         
+         color: black;
     }
     .grow:hover {
         
@@ -68,11 +90,29 @@
         width: 27.333%;
          padding:2.4%;
         margin: 0;
+        border-radius: 50%;
+    }
+    #galler li img:hover {
+        border-radius:50%;
+        
     }
     .alignment {
         text-align: center;
-        width: 30px;
+        
+        
+    }
+    p img{
+        width: 300px;
         height: auto;
+        opacity: 0.7;
+        transition:all 0.3s ease;
+    }
+    p img:hover {
+        -webkit-transform: scale(.8);
+        -ms-transform: scale(.8);
+        transform: scale(.8);
+        border-radius: 50%;   
+        opacity: 1;
     }
 /* !TESTING AREA!*/
 
@@ -91,18 +131,17 @@
     }
     ul li a{
         display: block;
-        padding: 8px 25px;
+        padding: 10px 15px;
         color: #333;
         text-decoration: none;
     }
     ul li a:hover{
         color: #fff;
-        background-color: #0C090A;
     }
     ul li ul.dropdown{
         min-width: 125px; /*Set width of the dropdown */
 
-       background-color: #0C090A;
+      
         display: none;
         position: absolute;
         z-index: 999;
@@ -127,8 +166,8 @@
   border-radius:50%;
   height:2px; width:2px; /* To allow border-radius to work */
   position:absolute;
-  top:15%; left:15%;
-  margin-top:25px; margin-left:-1px;
+  top:50%; left:50%;
+  margin-top:-1px; margin-left:-1px;
   box-shadow:
     -75px -125px 0 40px #6cce74,
      75px -125px 0 40px #c18d46,
@@ -137,7 +176,7 @@
     -75px  125px 0 40px #9c37a6,
    -150px    0px 0 40px #76bdd1;
   -webkit-animation:rotate 12s infinite linear;
-  animation: rotate 12s infinite linear;
+  animation:rotate 12s infinite linear;
 }
 @keyframes rotate {
   16.67% {
@@ -175,7 +214,6 @@
        75px  125px 0 40px #76bdd1,
       -75px  125px 0 40px #6cce74,
      -150px    0px 0 40px #c18d46;
-    
   }
   88.88%   { 
     box-shadow:
@@ -253,4 +291,66 @@
       -75px  125px 0 40px #9c37a6,
      -150px    0px 0 40px #76bdd1;
   }
+}
+div:hover {  
+    height:102px; 
+    width:102px;
+    transform: scale(20);
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { 
+    -webkit-transform: scale(2);
+    -ms-transform: scale(2);
+    transform: scale(2);
+}
+.elem {
+    position:absolute;
+    top : 50px;
+    background-color:yellow;
+    left:50px;
+    height:30px;
+    width:30px;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+    -webkit-animation-name: grow;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: grow;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    transition-property: -moz-transform;
+    transition-duration: 1s;
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes grow {
+    from {
+        -webkit-transform:scale(1);
+    }
+    to {
+        -webkit-transform:scale(4.333);
+    }
+}
+@-moz-keyframes grow {
+    from {
+        -moz-transform:scale(1);
+    }
+    to {
+        -moz-transform:scale(4.333);
+    }
+}
+@keyframes grow {
+    from {
+        transform:scale(1);
+    }
+    to {
+        transform:scale(4.333);
+    }
 }
