@@ -1,28 +1,34 @@
-    body {
+body {
     font-size: 2em;
-    background-color: white;
+    background-color: #C7D0D5;
     color: #ff9900;
     font-family: MoonFlower;
     
     }
     h3 {
-        background-color: #00ffcc;
+        margin: -5px;
+        padding: 15px;
+        color: black;
+        text-align: right;
+       
     }
     h1 {
+        color: #93b16;
         border-radius: 25%;
         display:inline;
-       border-style: solid;
-       border-color: black;
+        border-style: solid;
+        border-color: black;
         font-weight: 300;
         font-size: 1em;
         font-family:Cash Currency;
         margin: -5px 0 0;
         padding: 10px;
-        background-color: #006666;
+        background-color: #FF7148;
+        
       
     }
     h2 {
-        background-color:  #00ffcc;
+        background-color: #00cc99;
         text-align: center;
         font-size: 1em;
         color: blue;
@@ -52,12 +58,6 @@
         text-align: right;
          text-decoration: none;
     }
-    h3 {
-        margin: -5px;
-        padding: 15px;
-         color: black;
-         text-align: right;
-    }
     .grow:hover {
         
     }
@@ -80,9 +80,10 @@
         border-radius: 25px;
         padding: 10px; 
         width: 300px;
-        height: auto;
-        
-         
+        height: auto;    
+    }
+    p3{
+        background-color: white;
     }
     img {
         max-width: 100%;
@@ -361,7 +362,4 @@ div:hover {
     to {
         transform:scale(4.333);
     }
-}
-html{
-    background-color:#00ffcc;
 }

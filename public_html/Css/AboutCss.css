@@ -1,0 +1,48 @@
+    body {
+    list-style: none;
+    background-color: #6534ff;
+    color: #ff9900;
+    font-family: MoonFlower;
+    }
+    a {
+    text-decoration: none;
+    color: red; 
+    }
+    h3 {
+
+    }
+    h1 {
+    border-radius: 25%;
+    display:inline;
+    border-style: solid;
+    border-color: black;
+    font-weight: 300;
+    font-size: 3em;
+    font-family:Cash Currency;
+    margin: -5px 0 0;
+    padding: 10px;
+    background-color: #9900ff;
+    }
+    .align-middle {
+        width: 300px;
+        height: auto;
+        opacity: 0.7;
+        transition:all 0.3s ease;
+        line-height: 200%;
+        margin-top: 25px;
+    }
+    p img{
+        width: 600px;
+        height: auto;
+        opacity: 0.7;
+        transition:all 0.3s ease;
+        line-height: 200%;
+        margin-top: 25px;
+    }
+    p img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        border-radius: 5%;   
+        opacity: 1;
+    }
