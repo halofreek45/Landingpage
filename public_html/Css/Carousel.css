@@ -30,8 +30,9 @@
         text-align: center;
         padding-top:35px;
        padding-bottom: 5px;
-       margin-top: -35px;
+       margin-top: -10px;
        font-size: 1.5em;
+       background-color: gray;
     }
   
     h2 {

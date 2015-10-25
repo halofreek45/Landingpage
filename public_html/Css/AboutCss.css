@@ -1,3 +1,10 @@
+.lower {
+    
+}
+html {
+    margin-right: -50px;
+    margin-left: -50px;
+}
 .werchamps {
         opacity: 0.6;
         color: gold;
@@ -32,6 +39,7 @@
        padding-bottom: 5px;
        padding-right: 5px;
        padding-left: 5px;
+       background-color: gray;
     }
   
     h2 {
@@ -100,7 +108,7 @@
     }
     .alignment {
         text-align: center;   
-        width: 500px;
+        width: 50px;
         height: auto;
     }
     p img{

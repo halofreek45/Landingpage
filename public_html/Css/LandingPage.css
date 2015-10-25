@@ -1,4 +1,11 @@
-  .werchamps {
+.resizing{
+    width: 10%;
+    height: auto;
+    position: relative;
+    left: -20%;
+    top: 50px;
+}  
+.werchamps {
         opacity: 0.6;
         color: gold;
         font-size: 1.2em;
@@ -9,6 +16,7 @@
         opacity:1;  
     }
     h1 {
+        text-align: center;
         background-color: black;
         color: #ffff33;
         font-weight: 300;
@@ -30,12 +38,14 @@
         text-align: center;
        margin-top: -35px;
        padding-bottom: 5px;
+       background-color: gray;
     }
   
     h2 {
         text-align: center;
         font-size: 1em;
         color: blue;
+        
        
     }
     @font-face{
