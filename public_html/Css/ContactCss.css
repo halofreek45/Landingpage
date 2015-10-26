@@ -1,6 +1,6 @@
 /* MEDIA QUERIES*/
 @media screen and (min-width: 480px){
-    #primary {
+#primary {
     width: 50%;
     float: left;
 }
@@ -10,21 +10,29 @@
 }
 }
 /****************/
-h6{
-    margin-top: -2px;
+.relative1 {
+    position: relative;
+    right: 120px;
 }
-p7{
-   margin-top: -70px;
+.relative2 {
+    position: relative;
+    right: 60px;
+}
+.relative3 {
+    position: relative;
+    right: 160px;
+}
+.h6{
+    margin-top: -2px;
+    font-size: 1.3em;
+    
 }
 p9 {
     font-size: 1.3em;
+    font-weight: 600;
 }
 p10 {
     color: #ff9900;
-}
-h6 {
-    font-size: 1.3em;
-    font-weight: 600;
 }
 img {
     display: block;

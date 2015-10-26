@@ -1,3 +1,13 @@
+/*Media Queries*
+@media screen and (min-width: 480px){
+    #gallery li {
+        width: 28.33333%;
+    }
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+}
+/***************/
 .page {
     border-bottom: 5px;
 }
