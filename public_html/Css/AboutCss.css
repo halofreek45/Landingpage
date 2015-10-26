@@ -1,7 +1,7 @@
 h6 {
     font-size: 1.2em; 
     margin-bottom: -5px;
-margin-top: -5px;
+    margin-top: -5px;
 }
 p2 {
     font-weight: 500;
@@ -34,7 +34,7 @@ h {
         background-color: gray;
         color: #ffff33;
         font-weight: 300;
-        font-size: 1em;
+        font-size: .9em;
         font-family:Cash Currency;
         margin-top: -15px;
         border-top: 10px gray solid;

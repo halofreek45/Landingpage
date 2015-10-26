@@ -1,11 +1,24 @@
+h6{
+    margin-top: -2px;
+}
+p7{
+   margin-top: -70px;
+}
+p9 {
+    font-size: 1.3em;
+}
+h6 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
 img {
     display: block;
     max-width:200px;
     display: block;
     border-radius: 10%;
     transition:all 0.3s ease;
-   width: 60%;
-   height: auto;
+    width: 60%;
+    height: auto;
 }
 .werchamps {
         opacity: 0.6;
@@ -21,7 +34,7 @@ img {
         background-color: gray;
         color: #ffff33;
         font-weight: 300;
-        font-size: 1em;
+        font-size: .9em;
         font-family:Cash Currency;
         margin-top: -15px;
         border-top: 10px gray solid;
@@ -37,6 +50,7 @@ img {
     
     }
     h3 {
+        font-size: .9em;
        background-color: #8d8974;
         text-align: center;
        margin-top: -35px;
