@@ -1,8 +1,17 @@
+.page {
+    border-bottom: 5px;
+}
+.dropdown{
+    text-align: right;
+    position: relative;
+    left: 55%;
+    top: 10px;
+}
 .resizing{
-    width: 10%;
+    width: 8%;
     height: auto;
     position: relative;
-    left: -20%;
+    left: -25%;
     top: 50px;
 }  
 .werchamps {
@@ -17,14 +26,15 @@
     }
     h1 {
         text-align: center;
-        background-color: black;
+         background-color: gray;
         color: #ffff33;
         font-weight: 300;
-        font-size: 1em;
+        font-size: .9em;
         font-family:Cash Currency;
-        margin-top: -15px;
+        margin-top: -40px;
         border-top: 10px black solid;
         border-bottom: 10px black solid;
+        position: static;
     }
     body {
     font-size: 2em;
@@ -38,7 +48,8 @@
         text-align: center;
        margin-top: -35px;
        padding-bottom: 5px;
-       background-color: gray;
+       font-size: .9em;
+      
     }
   
     h2 {
@@ -72,6 +83,8 @@
     .h1 {
      font-weight: normal;
          font-size: 1.75em;
+         position: relative;
+         left: -9%;
     }
     p{
     
@@ -157,6 +170,8 @@
         position: absolute;
         z-index: 999;
         left: 0;
+        top: 25px;
+        
     }
     ul li:hover ul.dropdown{
         display: block; /* Display the dropdown */
@@ -386,7 +401,7 @@ h3 > a:before {
   position: absolute;
   width: 75%;
   height: 2px;
-  bottom: 10%;
+  bottom: -5%;
   left: 10%;
   background-color: white;
   visibility: hidden;
