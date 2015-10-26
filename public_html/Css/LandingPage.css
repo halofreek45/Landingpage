@@ -5,14 +5,14 @@
     text-align: right;
     position: relative;
     left: 55%;
-    top: 10px;
+    top: 35px;
 }
 .resizing{
-    width: 8%;
+    width: 15%;
     height: auto;
     position: relative;
-    left: -25%;
-    top: 50px;
+    left: -.5%;
+    top: 0px;
 }  
 .werchamps {
         opacity: 0.6;
@@ -36,17 +36,21 @@
         border-bottom: 10px black solid;
         position: static;
     }
+    p{
+        font-size: 1.25em;
+            font-weight: 700;
+    }
     body {
     font-size: 2em;
     background-color: white;    
-    color: #ff9900;
+    color: gray;
     font-family: MoonFlower;
     
     }
     h3 {
-       background-color: black;
+        background-color: #8d8974;
         text-align: center;
-       margin-top: -35px;
+       margin-top: -30px;
        padding-bottom: 5px;
        font-size: .9em;
       
